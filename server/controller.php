@@ -10,7 +10,7 @@ if (isset($_GET['genre']) !== false) {
     } else {
         $carsFiltered = [];
         foreach ($cars as $car) {
-            if ($car['modello'] === $genre) {
+            if ($car['modello'] === $genre || $car['carburante'] === $genre) {
                 $carsFiltered[] = $car;
             }
         }

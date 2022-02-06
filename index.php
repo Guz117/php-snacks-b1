@@ -20,6 +20,10 @@
             <option value="Kia cee'd">Kia cee'd</option>
             <option value="Fiat Panda">Fiat</option>
             <option value="Subaru XV">Subaru XV</option>
+            <option value="GPL">GPL</option>
+            <option value="ibrida">ibrida</option>
+            <option value="diesel">diesel</option>
+            <option value="benzina">benzina</option>
         </select>
         <div class="cars" v-for="car in cars">
             <img :src="car.immagine" alt="">
